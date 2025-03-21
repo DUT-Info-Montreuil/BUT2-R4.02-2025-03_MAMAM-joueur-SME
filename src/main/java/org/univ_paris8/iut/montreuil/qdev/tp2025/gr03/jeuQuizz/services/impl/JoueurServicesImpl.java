@@ -32,10 +32,10 @@ public class JoueurServicesImpl implements JoueurServices {
 
         //vérifier pseudo
         for (JoueursDTO joueur : joueurs) if (joueur.getPseudo().equals(pseudo)) throw new PseudoExistantException();
-        if (Pattern.matches("\\d.*", pseudo)) throw new PseudoInvalideException();
+        if (Pattern.matches("^\\d.*", pseudo)) throw new PseudoInvalideException();
 
         //vérifier interets
-        if (Pattern.matches(".*,", interets)) throw new CentreDInteretInvalideException();
+        if (Pattern.matches(".*,$", interets)) throw new CentreDInteretInvalideException();
 
         //ajout joueur à la liste
         JoueursDTO joueur = new JoueursDTO(pseudo, lang, interets, prenom, annee_naissance);
