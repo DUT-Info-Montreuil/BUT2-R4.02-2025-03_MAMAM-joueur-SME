@@ -1,8 +1,8 @@
 package org.univ_paris8.iut.montreuil.qdev.tp2025.gr03.jeuQuizz.entities.dto;
 
-import org.univ_paris8.iut.montreuil.qdev.tp2025.gr03.jeuQuizz.utils.objet.Langue;
+import org.univ_paris8.iut.montreuil.qdev.tp2025.gr03.jeuQuizz.utils.Langue;
 
-public class JoueursDTO {
+public class JoueurDTO {
     private String pseudo;
     private Langue langue;
     private  String prenom;
@@ -11,7 +11,7 @@ public class JoueursDTO {
 
 
 
-    public JoueursDTO(String pseudo, Langue langue, String interets, String prenom , int annee_naissance){
+    public JoueurDTO(String pseudo, Langue langue, String interets, String prenom , int annee_naissance){
         this.pseudo=pseudo;
         this.langue=langue;
         this.interets=interets;
