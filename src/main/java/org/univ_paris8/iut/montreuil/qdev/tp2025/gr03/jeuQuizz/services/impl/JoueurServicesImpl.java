@@ -18,18 +18,7 @@ public class JoueurServicesImpl implements JoueurServices {
     }
 
     @Override
-    public JoueursDTO ajouterJoueur(String pseudo, int langue, String interets, String prenom , int annee_naissance) throws AjoutJoueurException {
-        //initialisation variable
-        Langue lang;
-
-        //vérifier langue
-        try {
-            lang = Langue.getLangueByChoix(langue);
-        }
-        catch (LangueInvalideException e) {
-            throw new LangueInvalideException();
-        }
-
+    public JoueursDTO ajouterJoueur(String pseudo, Langue langue, String interets, String prenom , int annee_naissance) throws AjoutJoueurException {
         //vérifier pseudo
         for (JoueursDTO joueur : joueurs) if (joueur.getPseudo().equals(pseudo)) throw new PseudoExistantException();
         if (Pattern.matches("^\\d.*", pseudo)) throw new PseudoInvalideException();
@@ -38,7 +27,7 @@ public class JoueurServicesImpl implements JoueurServices {
         if (Pattern.matches(".*,$", interets)) throw new CentreDInteretInvalideException();
 
         //ajout joueur à la liste
-        JoueursDTO joueur = new JoueursDTO(pseudo, lang, interets, prenom, annee_naissance);
+        JoueursDTO joueur = new JoueursDTO(pseudo, langue, interets, prenom, annee_naissance);
         joueurs.add(joueur);
         return joueur;
     }

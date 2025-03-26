@@ -9,9 +9,4 @@ public enum Langue {
         this.choix=choix;
     }
     private int choix;
-
-    public static Langue getLangueByChoix(int choix) throws LangueInvalideException {
-        for (Langue langue : Langue.values()) if (langue.choix == choix) return langue;
-        throw new LangueInvalideException();
-    }
 }
