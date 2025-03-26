@@ -29,4 +29,5 @@ public class JoueurServicesImpl implements JoueurServices {
         JoueurDTO joueur = new JoueurDTO(pseudo, langue, interets, prenom, annee_naissance);
         joueurs.add(joueur);
         return joueur;
+    }
 }
