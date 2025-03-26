@@ -4,7 +4,6 @@ import org.univ_paris8.iut.montreuil.qdev.tp2025.gr03.jeuQuizz.entities.dto.Joue
 import org.univ_paris8.iut.montreuil.qdev.tp2025.gr03.jeuQuizz.services.interfaces.JoueurServices;
 import org.univ_paris8.iut.montreuil.qdev.tp2025.gr03.jeuQuizz.utils.Langue;
 import org.univ_paris8.iut.montreuil.qdev.tp2025.gr03.jeuQuizz.utils.exceptions.*;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
@@ -30,5 +29,4 @@ public class JoueurServicesImpl implements JoueurServices {
         JoueurDTO joueur = new JoueurDTO(pseudo, langue, interets, prenom, annee_naissance);
         joueurs.add(joueur);
         return joueur;
-    }
 }
