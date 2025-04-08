@@ -1,1 +1,12 @@
-/home/etudiants/info/mdiabate/IdeaProjects/BUT2-R4.02-2025-03_MAMAM-joueur-SME/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/App.java
+/home/etudiants/info/moloughlin/qualite dev s4/BUT2-R4.02-2025-03_MAMAM-joueur-SM/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/App.java
+/home/etudiants/info/moloughlin/qualite dev s4/BUT2-R4.02-2025-03_MAMAM-joueur-SM/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/entities/dto/JoueurDTO.java
+/home/etudiants/info/moloughlin/qualite dev s4/BUT2-R4.02-2025-03_MAMAM-joueur-SM/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/services/impl/JoueurServicesImpl.java
+/home/etudiants/info/moloughlin/qualite dev s4/BUT2-R4.02-2025-03_MAMAM-joueur-SM/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/services/interfaces/JoueurServices.java
+/home/etudiants/info/moloughlin/qualite dev s4/BUT2-R4.02-2025-03_MAMAM-joueur-SM/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/utils/Langue.java
+/home/etudiants/info/moloughlin/qualite dev s4/BUT2-R4.02-2025-03_MAMAM-joueur-SM/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/utils/exceptions/AjoutJoueurException.java
+/home/etudiants/info/moloughlin/qualite dev s4/BUT2-R4.02-2025-03_MAMAM-joueur-SM/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/utils/exceptions/InsertionException.java
+/home/etudiants/info/moloughlin/qualite dev s4/BUT2-R4.02-2025-03_MAMAM-joueur-SM/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/utils/exceptions/InteretsInvalidesException.java
+/home/etudiants/info/moloughlin/qualite dev s4/BUT2-R4.02-2025-03_MAMAM-joueur-SM/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/utils/exceptions/LangueInvalideException.java
+/home/etudiants/info/moloughlin/qualite dev s4/BUT2-R4.02-2025-03_MAMAM-joueur-SM/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/utils/exceptions/PseudoException.java
+/home/etudiants/info/moloughlin/qualite dev s4/BUT2-R4.02-2025-03_MAMAM-joueur-SM/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/utils/exceptions/PseudoExistantException.java
+/home/etudiants/info/moloughlin/qualite dev s4/BUT2-R4.02-2025-03_MAMAM-joueur-SM/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/utils/exceptions/PseudoInvalideException.java

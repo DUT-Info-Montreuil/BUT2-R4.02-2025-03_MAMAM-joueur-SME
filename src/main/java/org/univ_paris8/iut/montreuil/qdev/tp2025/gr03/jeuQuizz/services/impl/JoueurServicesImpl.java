@@ -32,7 +32,8 @@ public class JoueurServicesImpl implements JoueurServices {
         return joueur;
     }
 
-    public List<JoueurDTO> getJoueurs() {
+    public List<JoueurDTO> listerJoueurs() throws ListeJoueursVideException {
+        if (joueurs.isEmpty()) throw new ListeJoueursVideException();
         return joueurs;
     }
 
