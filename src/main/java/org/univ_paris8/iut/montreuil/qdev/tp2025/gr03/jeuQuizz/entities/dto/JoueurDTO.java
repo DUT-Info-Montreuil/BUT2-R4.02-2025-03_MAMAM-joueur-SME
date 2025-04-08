@@ -1,6 +1,8 @@
 package org.univ_paris8.iut.montreuil.qdev.tp2025.gr03.jeuQuizz.entities.dto;
 import org.univ_paris8.iut.montreuil.qdev.tp2025.gr03.jeuQuizz.utils.Langue;
 
+import java.util.Objects;
+
 public class JoueurDTO {
     private String pseudo;
     private Langue langue;
@@ -53,5 +55,18 @@ public class JoueurDTO {
 
     public void setInterets(String interets) {
         this.interets = interets;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        JoueurDTO joueurDTO = (JoueurDTO) o;
+        return annee_naissance == joueurDTO.annee_naissance && Objects.equals(pseudo, joueurDTO.pseudo) && langue == joueurDTO.langue && Objects.equals(prenom, joueurDTO.prenom) && Objects.equals(interets, joueurDTO.interets);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(pseudo, langue, prenom, annee_naissance, interets);
     }
 }
