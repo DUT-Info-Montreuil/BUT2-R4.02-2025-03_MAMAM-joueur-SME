@@ -1,1 +1,12 @@
+org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/utils/Langue.class
+org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/utils/exceptions/InteretsInvalidesException.class
+org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/services/interfaces/JoueurServices.class
+org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/utils/exceptions/PseudoExistantException.class
+org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/utils/exceptions/InsertionException.class
 org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/App.class
+org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/utils/exceptions/PseudoException.class
+org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/utils/exceptions/PseudoInvalideException.class
+org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/utils/exceptions/AjoutJoueurException.class
+org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/entities/dto/JoueurDTO.class
+org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/services/impl/JoueurServicesImpl.class
+org/univ_paris8/iut/montreuil/qdev/tp2025/gr03/jeuQuizz/utils/exceptions/LangueInvalideException.class
